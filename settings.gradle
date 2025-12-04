@@ -1,0 +1,4 @@
+rootProject.name = 'kafka-bieginners-course'
+include 'kafka-basics'
+include 'kafka-producer-wikimedia'
+

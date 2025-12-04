@@ -1,0 +1,9 @@
+
+{
+java:S21426"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8†¤¡Ô­3
+\
+java:S6213G":Rename this variable to not match a restricted identifier.(´Å£Ÿıÿÿÿÿ8øõ¢Ô­3
+^
+java:S3457H"AFormat specifiers should be used instead of string concatenation.(—ËÈ8úõ¢Ô­3
+c
+java:S3457I"AFormat specifiers should be used instead of string concatenation.(¾ÙÙÖÿÿÿÿÿ8ûõ¢Ô­3
