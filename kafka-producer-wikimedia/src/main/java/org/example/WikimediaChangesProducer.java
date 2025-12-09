@@ -13,8 +13,6 @@ import java.util.concurrent.TimeUnit;
 
 public class WikimediaChangesProducer {
     public static void main(String[] args) throws InterruptedException {
-
-
         // create Producer Properties
         Properties properties = new Properties();
         properties.setProperty("bootstrap.servers", "127.0.0.1:9092");
@@ -23,9 +21,9 @@ public class WikimediaChangesProducer {
         properties.setProperty(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
 
         //set safe producer (Kafka <= 2.8.0)
-//        properties.setProperty(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG, "true");
-//        properties.setProperty(ProducerConfig.ACKS_CONFIG, "all");
-//        properties.setProperty(ProducerConfig.RETRIES_CONFIG, Integer.toString(Integer.MAX_VALUE));
+        properties.setProperty(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG, "true");
+        properties.setProperty(ProducerConfig.ACKS_CONFIG, "all");
+        properties.setProperty(ProducerConfig.RETRIES_CONFIG, Integer.toString(Integer.MAX_VALUE));
 
         // set high throughput producer config
         properties.setProperty(ProducerConfig.LINGER_MS_CONFIG, "20");
