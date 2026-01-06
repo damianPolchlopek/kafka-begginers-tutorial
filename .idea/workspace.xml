@@ -5,43 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="391619ff-e085-4046-b592-a816f26493ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/Instructions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/src/main/java/org/example/procesor/BotCountStreamBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/src/main/java/org/example/procesor/EventCountTimeseriesBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/src/main/java/org/example/procesor/WebsiteCountStreamBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/0063f111c45d80878378a2bce7e916306505095e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4cf38ae8488a3e97196a322a082c01d51137c326" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55fcd6634627c21e06450dfed3c34bcc3ceecb16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0bdd21caa66ff261134b14a06c7130d72e9d527" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6269987239e24cbd80a56e73957b24b2a409e3d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/0/0063f111c45d80878378a2bce7e916306505095e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/c/4cf38ae8488a3e97196a322a082c01d51137c326" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/5/55fcd6634627c21e06450dfed3c34bcc3ceecb16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/0/c0bdd21caa66ff261134b14a06c7130d72e9d527" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/6/f6269987239e24cbd80a56e73957b24b2a409e3d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-streams-wikimedia/build/classes/java/main/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/build/classes/java/main/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-streams-wikimedia/build/classes/java/main/org/example/procesor/BotCountStreamBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/build/classes/java/main/org/example/procesor/BotCountStreamBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-streams-wikimedia/build/classes/java/main/org/example/procesor/EventCountTimeseriesBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/build/classes/java/main/org/example/procesor/EventCountTimeseriesBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-streams-wikimedia/build/classes/java/main/org/example/procesor/WebsiteCountStreamBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/build/classes/java/main/org/example/procesor/WebsiteCountStreamBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-streams-wikimedia/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-streams-wikimedia/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-streams-wikimedia/src/main/java/org/example/procesor/BotCountStreamBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/src/main/java/org/example/procesor/BotCountStreamBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-streams-wikimedia/src/main/java/org/example/procesor/EventCountTimeseriesBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/src/main/java/org/example/procesor/EventCountTimeseriesBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-streams-wikimedia/src/main/java/org/example/procesor/WebsiteCountStreamBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-streams-wikimedia/src/main/java/org/example/procesor/WebsiteCountStreamBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +81,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/Aplikacje/kafka-bieginners-course&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.WikimediaChangesProducer">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="kafka-bieginners-course.kafka-streams-wikimedia.main" />
